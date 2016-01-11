@@ -2,25 +2,18 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"Ticket ID"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "success",
+            "title":"Success?"
         }
-      */
     ],
-    "title": "Zendesk: Spam Ticket" /* Required.A display name for the module */
+    "icon": "dex-zendesk",
+    "title": "Zendesk: Spam Ticket"
 }
